@@ -1,0 +1,36 @@
+{
+  "name": "NoviProjekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " npx parcel index.html --no-cache",
+    "build": " parcel build index.html --public-url ./proba ",
+    "production": "parcel  index.html --out-dir ./produkcija  --no-cache -p 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "parcel-bundler": "^1.12.4",
+    "popper.js": "^1.16.1",
+    "proper": "^0.5.1",
+    "react-strap": "0.0.1"
+  },
+  "home":".",
+  "browserslist": "> 0.25%, not dead"
+}
